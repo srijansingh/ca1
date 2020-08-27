@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Q2. INT-219 CA-1</title>
+        <link rel="stylesheet" href="./css/form.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="form-card">
+                <h2>Personal Details</h2>
+                <div class="form">
+
+                    <div class="formControl">
+                        <label for="name">Name</label>
+                        <input type="text" />
+                    </div>
+
+                    <div class="formControl">
+                        <label for="password">Password</label>
+                        <input type="password" />
+                    </div>
+                    <div class="formControl">
+                        <label for="email" >Email</label>
+                        <input type="email" />
+                    </div>
+                    <div class="formControl">
+                        <label for="gender">Gender</label>
+                        <div class="radio">
+                            <div class="gen">
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label>
+                            </div>
+                            <div class="gen">
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="formControl">
+                        <label for="contact" >Contact</label>
+                        <input type="number" />
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="form-card">
+                <h2>Educational Details</h2>
+                <div class="form">
+
+                    <div class="formControl">
+                        <label for="degree">Degree</label>
+                        <select name="degree" id="degree">
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                            <option value="4">Option 4</option>
+                        </select>
+                    </div>
+
+                    <div class="formControl">
+                        <label for="engineer">Engineering</label>
+                        <select name="engineer" id="degree">
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                            <option value="4">Option 4</option>
+                        </select>
+                    </div>
+                    
+                    <div class="formControl">
+                        <label for="hobbies">Hobbies</label>
+                        <div class="radio">
+                            <div class="gen">
+                                <input type="radio" id="chess" name="hobbie" value="chess">
+                                <label for="chess">Playing Chess</label>
+                            </div>
+                            <div class="gen">
+                                <input type="radio" id="books" name="hobbie" value="books">
+                                <label for="books">Reading Books</label>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="form-card">
+                <h2>Address</h2>
+
+                <div class="formControl">
+                    <textarea name="address" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="formControl">
+                    <label for="file">Attatch Resume: </label>
+                    <input type="file" />
+                </div>
+            </div>
+
+            <div class="form-card">
+                <button>SUBMIT <i class="fa fa-arrow-circle-right"></i> </button>
+            </div>
+
+
+        </div>
+    </body>
+</html>
